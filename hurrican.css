@@ -1,0 +1,130 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: darkred;
+}
+
+.new2 a:hover {
+    background: darkred;
+}
+
+.new2 {
+    border: 1px solid darkred;
+}
+
+li.p1 {
+    display: inline-flex;
+}
+
+.p1 {
+    float: left;
+    border: 1px solid white;
+}
+
+a {
+    color: rgb(63, 3, 3);
+}
+
+li a {
+    color: #ddd;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: burlywood;
+}
+
+#list:last-child {
+    border: 1px solid white;
+}
+
+.button {
+    float: right;
+    padding: 0;
+    border: 1px solid white;
+    margin: 0;
+    background-color: darkred;
+    display: inline-flex;
+}
+
+button.button .menu__icon {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: darkred;
+    display: inline-flex;
+    border: 1px solid #ddd;
+}
+
+div.img1 {
+    background-color: gray;
+    border: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+img.cross {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    background-color: gray;
+    width: 20px;
+    height: 25px;
+}
+
+img.adv {
+    display: block;
+    margin: auto;
+}
+
+
+img.earth {
+    margin-left: 100px;
+    width: 600px;
+    height: 400px;
+}
+
+.man {
+    width: 700px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.class__btn {
+    background: darkslategray;
+    border: 1px solid darkslategray;
+    padding: 20px 15px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.class__btn:hover {
+    background-color: red;
+}
+
+div.container a {
+    text-decoration: none;
+}
+
+div.container p {
+    margin: 0;
+    margin-bottom: 10px;
+}

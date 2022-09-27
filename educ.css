@@ -1,0 +1,99 @@
+/*This is for hurrican css just practicing */
+
+
+/*body {
+    font-weight: 600px;
+    width: 50%;
+    margin: auto;
+} */
+
+.new {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    /* it gets rid of the num. */
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    /* it has scroll choice */
+    background-color: darkred;
+}
+
+
+.p1 {
+    float: left;
+    /* it will move it to the side */
+    border: 1px solid white;
+    /* border ku warejin text ka*/
+}
+
+li a {
+    /* a link ga saamayn */
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: burlywood;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: darkolivegreen;
+}
+
+.p2 {
+    float: left;
+    border: 1px solid white;
+}
+
+div.Two {
+    background-color: gray;
+    border: 20px solid gray;
+
+}
+
+img.cross {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    background-color: gray;
+    width: 20px;
+    height: 25px;
+}
+
+img.adv {
+    display: block;
+    margin: auto;
+}
+
+img.earth {
+    margin: 30px;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+.button {
+    float: right;
+    background-color: darkred;
+    border: 1px solid #ddd;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    outline: none;
+}
+
+.menu {
+    width: 40px;
+    height: 30px;
+
+}

@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.one-bar {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/*.bar {
+    float: left;
+    border: 1px solid #ffffff;
+}
+*/
+.log {
+    float: right;
+    overflow: hidden;
+}
+
+.log2 {
+    background-color: blue;
+    float: right;
+}
+
+.log2 a:hover {
+    background-color: blue;
+}
+
+li.log2,
+.log a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 18px 15px;
+}
+
+li.log a:hover {
+    background-color: aliceblue;
+}
+
+/*.one li a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 18px 15px;
+}
+
+.one li a:hover {
+    background-color: aliceblue;
+
+}*/
+
+.one {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.one ul li.bar {
+    float: left;
+    padding: 20px 15px;
+}
+
+.one ul li.bar a {
+    text-decoration: none;
+    color: #000000;
+    padding: 20px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one ul li.bar a:hover {
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.sub-bar {
+    display: none;
+}
+
+.one ul li:hover .sub-bar {
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.one ul li:hover .sub-bar ul {
+    display: block;
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/*caption {
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}*/
+.p1 {
+    text-align: center;
+    font-size: larger;
+}
+
+.section {
+    display: flex;
+}
+
+div.three1 {
+    margin: 400px;
+}
+
+div.section img {
+    margin-left: 310px;
+
+}
+
+p {
+    margin: auto;
+    width: 50%;
+}
+
+div.two img {
+    width: 700px;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 310px;
+}
+
+h4 {
+    margin-left: 310px;
+}
+
+h2 {
+    margin-left: 310px;
+}
+
+div.two ul {
+    margin-left: 310px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.two button {
+    background-color: #0000ff;
+    border: 1px solid #0000ff;
+    border-radius: 3px;
+    padding: 15px 10px;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+div.two button a {
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+div.two button a:hover {
+    background-color: #0000ff;
+}
+
+.clock {
+    display: flex;
+    margin-left: 310px;
+}
+
+div.clock2 {
+    margin: 400px;
+}
+
+.duck {
+    display: flex;
+    margin-left: 310px;
+}
+
+div.duck2 {
+    margin: 400px;
+}
+
+.tomato {
+    display: flex;
+    margin-left: 310px;
+}
+
+div.tomato img {
+    width: 100px;
+    height: 100px;
+}
+
+div.tomato2 {
+    margin: 400px;
+}
+
+.version {
+    display: flex;
+    margin-left: 310px;
+}
+
+div.version2 {
+    margin: 400px;
+}
+
+div.version img {
+    width: 100px;
+    height: 100px;
+}
+
+.sdlc {
+    display: flex;
+    margin-left: 310px;
+}
+
+div.sdlc2 {
+    margin: 400px;
+
+}
+
+ul.names {
+    margin-left: 310px;
+}
+
+.mini-tut {
+    display: table;
+}
+
+.mini-tut img {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.two p.note1 {
+    background-color: #e2dcdc;
+    border: 3px solid #dcdcdc;
+    border-left: 5px solid #6f6fd1;
+    padding: 30px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.note22 p.note2 {
+    background-color: #e2dcdc;
+    border: 3px solid #dcdcdc;
+    border-left: 5px solid #6f6fd1;
+    padding: 30px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
