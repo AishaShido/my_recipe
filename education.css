@@ -124,6 +124,7 @@ div.section img {
 p {
     margin: auto;
     width: 50%;
+    align-self: auto;
 }
 
 div.two img {

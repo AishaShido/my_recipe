@@ -51,6 +51,17 @@ li a:hover {
     display: inline-flex;
 }
 
+.menu__icon a{
+    padding: 10px 15px;
+}
+.button .menu__text{
+    text-align: center;
+}
+
+.menu__icon a:hover{
+    background-color: #deb887;
+}
+
 button.button .menu__icon {
     padding: 10px 15px;
     text-align: center;
